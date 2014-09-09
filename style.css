@@ -1,0 +1,54 @@
+h1 {
+	font-family:'Source Sans Pro', sans-serif;
+	color: #87244C ;
+	}
+h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color: #30162B ;
+	}
+body{
+	font-family: 'Habibi', serif;
+	background-color: #F5F2C4;
+	}
+aside{
+	float: right;
+	width: 35%:;
+	background-color: #BCCF9F;
+	}
+section{
+	float: left;
+	width: 75%;
+	background-color: white ;
+	margin: auto ;
+	}
+footer{
+	clear: both;
+	background-color: #BCCF9F;
+	}
+nav{
+	text-align: center;
+	background-color: #BCCF9F;
+	}
+nav
+ul li {
+	display: inline;
+	padding: 5%;
+	color: #30162B;
+	}
+.left{
+	float: left;
+	}
+.right{
+	float: right;
+	}
+article{
+	width: 45%;
+	margin-left : 2.5px;
+	margin-right: 2.5px;
+	border-radius: 25%;
+	}
+a{
+	color: #30162B;
+	text-decoration: none;
+	}
