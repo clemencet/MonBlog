@@ -1,36 +1,9 @@
-h1 {
-	font-family:'Source Sans Pro', sans-serif;
-	color: #87244C ;
-	text-align: center;
+/*--------------------------Balises HTML-------------------------*/
 
-	}
-h2{
-	padding-left: 5px;
-	font-family: 'Source Sans Pro', sans-serif;
-	text-align: left;
-	color: #30162B ;
-	}
 body{
 	font-family: 'Habibi', serif;
 	background-color: #F5F2C4;
-	}
-aside{
-	float: right;
-	width: 100%:;
-	font-size: 25px;
-	text-align: center;
-	}
-section{
-	float: left;
-	width: 75%;
-	padding-right: 30px ;
-	border-right: 1px solid #BCCF9F;
-
-	}
-footer{
-	clear: both;
-	background-color: #BCCF9F;
-	}
+}
 nav{
 	text-align: center;
 	/*background-color: #BCCF9F;*/
@@ -39,54 +12,99 @@ nav{
 	line-height: 30px;
 	margin-bottom: 15px;
 }
-nav
-ul li {
-	display: inline;
-	padding: 0 20px;
-	color: #30162B;
-	}
-.left{
+section{
 	float: left;
-	}
-.right{
-	float: right;
-	}
+	width: 75%;
+	padding-right: 30px ;
+	border-right: 1px solid #BCCF9F;
+}
 article{
 	width: 45%;
 	margin-left : 2.5px;
 	margin-right: 2.5px;
 	border-width: 2.5px;
-
-	}
+}
+aside{
+	float: right;
+	width: 100%:;
+	font-size: 25px;
+	text-align: center;
+}
+footer{
+	clear: both;
+	background-color: #BCCF9F;
+}
+h1 {
+	font-family:'Source Sans Pro', sans-serif;
+	color: #87244C ;
+	text-align: center;
+}
+h2{
+	padding-left: 5px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #30162B ;
+}
+p{
+	font-family: 'Habibi', serif;
+	text-align: left;
+	justify-content : between-space;
+	font-size: 14px;}
 a{
 	color: #30162B;
 	text-decoration: none;
-	}
-.red{color: red ;
-	}
-.blue{color: blue ;
-	}
-p{font-family: 'Habibi', serif;
-	text-align: left;
-	justify-content : between-space;
-	font-size: 14px;
-	}
-#turquoise{
-	background-image: url(turquoise_cc-jd-hancock2.jpg) ;
-	line-height: 72px;
-	}
-#violet{
-	background-image: url(violet_cc-matt-reinbold2.jpg) ;
-	line-height: 72px;
-	}
-#beige{
-	background-image: url(beige_cc-jinterwas2.jpg) ;
-	line-height: 72px;
-	}
+}
 
+/*----------------Balises combinées------------------*/
+
+nav ul li {
+	display: inline;
+	padding: 0 20px;
+	color: #30162B;
+}
+
+/*----------------Classes------------------------------*/
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+
+
+.blue{
+	color: blue ;
+}
+.red{
+	color: red ;
+}
+.mauve{
+	color: #87244C;
+}
+
+
+
+.cover {
+	line-height: 100px;
+	text-align: center;
+	background-size: cover;
+	}
 .wrapper {
 	width: 960px;
 	margin: auto;
 	background-color: white;
 	padding: 40px;
 }
+
+/*-------------------Id-----------------------------*/
+
+#turquoise{
+	background-image: url(images/turquoise_cc-jd-hancock2.jpg) ;
+	}
+#violet{
+	background-image: url(images/violet_cc-matt-reinbold2.jpg) ;
+	}
+#beige{
+	background-image: url(images/beige_cc-jinterwas_o.jpg) ;
+	}
