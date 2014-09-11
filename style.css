@@ -2,7 +2,7 @@
 
 body{
 	font-family: 'Habibi', serif;
-	background-color: #F5F2C4;
+	background-image: url(images/old_map.png)
 }
 nav{
 	text-align: center;
@@ -26,8 +26,7 @@ article{
 }
 aside{
 	float: right;
-	width: 100%:;
-	font-size: 25px;
+	width: 20%;
 	text-align: center;
 }
 footer{
@@ -35,14 +34,22 @@ footer{
 	background-color: #BCCF9F;
 }
 h1 {
-	font-family:'Source Sans Pro', sans-serif;
+	font-family:'Courgette';
 	color: #87244C ;
 	text-align: center;
+	font-size: 36px;
+	margin-bottom: 50px;
 }
 h2{
 	padding-left: 5px;
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #30162B ;
+}
+h3{
+	font-family: 'Source Sans Pro';
+	color: #30162B ;
+	font-size: 14px;
+	margin-top: none;
 }
 p{
 	font-family: 'Habibi', serif;
@@ -82,14 +89,33 @@ nav ul li {
 .mauve{
 	color: #87244C;
 }
+.white{
+	color: white;
+}
 
 
 
+.big{
+	font-size: 25px;
+}
+.bold{
+	font-weight: 700;
+}
 .cover {
 	line-height: 100px;
 	text-align: center;
 	background-size: cover;
-	}
+}
+.padding{
+	padding-top: 20px
+}
+.standard {
+	font-size: 14px;
+	font-family: "Habibi"
+}
+.twelve{
+	font-size: 12px;
+}
 .wrapper {
 	width: 960px;
 	margin: auto;
@@ -97,14 +123,29 @@ nav ul li {
 	padding: 40px;
 }
 
+/*-------------------Pseudo-classes-------------------------*/
+
+.underline:hover{
+	text-decoration: underline;
+}
+.cover:hover{
+	opacity: 0.6;
+}
+
+.book::before{
+	content: "\f02d";
+	font-family: FontAwesome;
+	margin-right: 1em;
+}
+
 /*-------------------Id-----------------------------*/
 
 #turquoise{
 	background-image: url(images/turquoise_cc-jd-hancock2.jpg) ;
-	}
+}
 #violet{
 	background-image: url(images/violet_cc-matt-reinbold2.jpg) ;
-	}
+}
 #beige{
 	background-image: url(images/beige_cc-jinterwas_o.jpg) ;
-	}
+}

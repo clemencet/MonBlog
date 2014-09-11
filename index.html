@@ -6,56 +6,73 @@
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
 	<div class="wrapper">
 		<header>
 			<h1>Mon Blog</h1>
 			<nav>
 				<ul>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Fiction</a></li>
-					<li><a href="#">Activité pro</a></li>
-					<li><a href="#">A propos</a></li>
-					<li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+					<li><a href="#" class="bold underline">Blog</a></li>
+					<li><a href="#" class="bold underline">Fiction</a></li>
+					<li><a href="#" class="bold underline">Activité pro</a></li>
+					<li><a href="#" class="bold underline">A propos</a></li>
+					<li><a href="#" class="bold underline"><i class="fa fa-envelope-o"></i></a></li>
 				</ul>
 			</nav>
 		</header>
 		<section>
 			<article class="left" >
-				<h2 id="turquoise" class="cover">
-				<a href="#">Blog</a>
-				</h2>
-				<p>blabla</p>
+				<a href="#">
+					<h2 id="turquoise" class="cover">Blog</h2>
+				</a>
+				<p class="book">Isdem diebus Apollinaris Domitiani gener, paulo ante agens palatii Caesaris curam, ad Mesopotamiam missus a socero per militares numeros immodice scrutabatur, an quaedam altiora meditantis iam Galli secreta susceperint scripta, qui conpertis Antiochiae gestis per minorem Armeniam lapsus Constantinopolim petit exindeque per protectores retractus artissime tenebatur.</p>
+				<a href="#" class="padding standard">Lire la suite</a>
 			</article>
 			<article class="right">
-				<h2 class="cover mauve" id="violet">
-				<a href="#">Fiction</a>
-				</h2>
-				<p>blabla</p>
+				<a href="#">
+					<h2 class="cover mauve" id="violet">Fiction</h2>
+				</a>
+				<p class="book">Restabat ut Caesar post haec properaret accitus et abstergendae causa suspicionis sororem suam, eius uxorem, Constantius ad se tandem desideratam venire multis fictisque blanditiis hortabatur. quae licet ambigeret metuens saepe cruentum, spe tamen quod eum lenire poterit ut germanum profecta, cum Bithyniam introisset, in statione quae Caenos Gallicanos appellatur, absumpta est vi febrium repentina. cuius post obitum maritus contemplans cecidisse fiduciam qua se fultum existimabat, anxia cogitatione, quid moliretur haerebat.</p>
+				<a href="#" class="padding standard">Lire la suite</a>
 			</article>
 			<article class="left">
-				<h2 id="beige" class="cover">
-				<a href="#">Activités pro</a>
-				</h2>
-				<p>blabla</p>
+				<a href="#">
+					<h2 id="beige" class="cover">Activités pro</h2>
+				</a>
+				<p class="book">Mox dicta finierat, multitudo omnis ad, quae imperator voluit, promptior laudato consilio consensit in pacem ea ratione maxime percita, quod norat expeditionibus crebris fortunam eius in malis tantum civilibus vigilasse, cum autem bella moverentur externa, accidisse plerumque luctuosa, icto post haec foedere gentium ritu perfectaque sollemnitate imperator Mediolanum ad hiberna discessit.</p>
+				<a href="#" class="padding standard">Lire la suite</a>
 			</article>
 			<article class="right">
-				<h2>
-				<a href="#">A propos</a>
-				</h2>
-				<p>blabla</p>
+				<a href="#" class="cover">
+					<h2>A propos</h2>
+				</a>
+				<p class="book">Mox dicta finierat, multitudo omnis ad, quae imperator voluit, promptior laudato consilio consensit in pacem ea ratione maxime percita, quod norat expeditionibus crebris fortunam eius in malis tantum civilibus vigilasse, cum autem bella moverentur externa, accidisse plerumque luctuosa, icto post haec foedere gentium ritu perfectaque sollemnitate imperator Mediolanum ad hiberna discessit.</p>
+				<a href="#" class="padding standard">Lire la suite</a>
 			</article>
 		</section>
 		<aside>
-			<a href="#"><i class="fa fa-facebook-square blue"></i></a>
-			<a href="#"><i class="fa fa-twitter-square blue"></i></a>
-			<a href="#"><i class="fa fa-google-plus-square red"></i></a>
-			<a href="#"><i class="fa fa-pinterest red"></i></a>
-			<form action="" class="formulaire">
-	        <p>S'inscrire à la newsletter</p>
+			<h3>Newsletter</h3>
+	        <form action="index.html" method="post" class="subscribe-form">
+      			<input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus>
+      			<div>
+      				<button type="submit" class="subscribe-submit">S'inscrire</button>
+      			</div>
+    		</form>
+    		<div class="padding">
+    			<h3>Où me trouver</h3>
+    			<div>
+    				<a href="http://www.ljsf.fr" class="underline twelve">Les J3ux sont faits</a>
+    			</div>
+    			<div class="padding">
+		    		<a href="#"><i class="fa fa-facebook-square blue big"></i></a>
+					<a href="#"><i class="fa fa-twitter-square blue big"></i></a>
+					<a href="#"><i class="fa fa-google-plus-square red big"></i></a>
+					<a href="#"><i class="fa fa-pinterest red big"></i></a>
+				</div>
+			</div>
 	    </aside>
 	    <footer></footer>
     </div> <!-- fermeture wrapper -->
