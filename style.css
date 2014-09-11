@@ -6,32 +6,31 @@ body{
 }
 nav{
 	text-align: center;
-	/*background-color: #BCCF9F;*/
 	border-top: 1px solid #BCCF9F;
 	border-bottom: 1px solid #BCCF9F;	
 	line-height: 30px;
 	margin-bottom: 15px;
 }
 section{
-	float: left;
-	width: 75%;
-	padding-right: 30px ;
+	padding-right: 10px ;
 	border-right: 1px solid #BCCF9F;
+	background-color: white;
 }
 article{
-	width: 45%;
-	margin-left : 2.5px;
-	margin-right: 2.5px;
-	border-width: 2.5px;
+	margin-left : 5px;
+	margin-right: 5px;
+	border-width: 5px;
 }
 aside{
-	float: right;
-	width: 20%;
 	text-align: center;
+	background-color: white;
 }
 footer{
-	clear: both;
-	background-color: #BCCF9F;
+	border-top: 3px;
+	border-color:  #BCCF9F;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
 }
 h1 {
 	font-family:'Courgette';
@@ -50,11 +49,11 @@ h3{
 	color: #30162B ;
 	font-size: 14px;
 	margin-top: none;
+	font-weight: 700;
 }
 p{
 	font-family: 'Habibi', serif;
 	text-align: left;
-	justify-content : between-space;
 	font-size: 14px;}
 a{
 	color: #30162B;
@@ -63,22 +62,12 @@ a{
 
 /*----------------Balises combinées------------------*/
 
-nav ul li {
-	display: inline;
-	padding: 0 20px;
+nav ul a{
+	padding: 20px;
 	color: #30162B;
 }
 
 /*----------------Classes------------------------------*/
-
-.left{
-	float: left;
-}
-.right{
-	float: right;
-}
-
-
 
 .blue{
 	color: blue ;
@@ -91,6 +80,9 @@ nav ul li {
 }
 .white{
 	color: white;
+}
+.bg-white{
+	background-color: white;
 }
 
 
@@ -116,11 +108,8 @@ nav ul li {
 .twelve{
 	font-size: 12px;
 }
-.wrapper {
-	width: 960px;
-	margin: auto;
-	background-color: white;
-	padding: 40px;
+.wide{
+	width: 95%;
 }
 
 /*-------------------Pseudo-classes-------------------------*/
@@ -130,12 +119,6 @@ nav ul li {
 }
 .cover:hover{
 	opacity: 0.6;
-}
-
-.book::before{
-	content: "\f02d";
-	font-family: FontAwesome;
-	margin-right: 1em;
 }
 
 /*-------------------Id-----------------------------*/
@@ -149,3 +132,5 @@ nav ul li {
 #beige{
 	background-image: url(images/beige_cc-jinterwas_o.jpg) ;
 }
+
+/*----------------------mediaqueries------------*/
