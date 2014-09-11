@@ -20,22 +20,24 @@
 </head>
 <body>	
 	<div class="container bg-white">
-		<div class="row">
+		<div class="row"> <!--Row1-->
 			<header>
-				<div class="col-md-12">
+				<div class="row">
 					<h1>Mon Blog</h1>
 				</div>
-				<nav>
-					<ul class="list-inline">
-						<a href="blog.html" class="bold underline">Blog</a>
-						<a href="#" class="bold underline">Fiction</a>
-						<a href="#" class="bold underline">Activité pro</a>
-						<a href="#" class="bold underline">A propos</a>
-						<a href="#" class="bold underline"><i class="fa fa-envelope-o"></i></a>
-					</ul>
-				</nav>
+				<div class="row"><!--row1bis-->
+					<nav>
+						<ul class="list-inline">
+							<a href="blog.html" class="bold underline">Blog</a>
+							<a href="#" class="bold underline">Fiction</a>
+							<a href="#" class="bold underline">Activité pro</a>
+							<a href="#" class="bold underline">A propos</a>
+							<a href="#" class="bold underline"><i class="fa fa-envelope-o"></i></a>
+						</ul>
+					</nav>
+				</div> <!--fermeturerow1bis-->
 			</header>
-			<div class="row">
+			<div class="row"> <!--Row2-->
 				<div class="col-md-10">
 					<section>
 						<div class="row">
@@ -81,30 +83,48 @@
 				<div class="col-md-2">
 					<aside>
 						<h3>Newsletter</h3>
+						<div class="border-bt">
 					        <form action="index.html" method="post" class="subscribe-form">
 					  			<input type="email" name="email" class="subscribe-input wide" placeholder="Email address" autofocus>
 				    			<div>
 					      			<button type="submit" class="subscribe-submit">S'inscrire</button>
 					      		</div>
 				  	 		</form>
-				   		<div class="padding">
+				  	 	</div>
+				   		<div class="padding" class="border-bt">
 				    		<h3>Où me trouver</h3>
 				    		<div>
-				   				<a href="http://www.ljsf.fr" class="underline standard">Les J3ux sont faits</a>
-				   			</div>
-				    		<div class="padding">
+				   				<a href="http://www.ljsf.fr">
+									<img src="images/ljsf_logo.png" alt="les j3ux sont faits" class="half-wide">
+								</a>
+							</div class="padding-sm">
+							<div>
+				    			<a href="http://www.ljsf.fr" class="standard">
+									Les J3ux sont faits
+								</a>				   			
+							</div>
+							<div class="padding">
+								<a href="http://www.geekgirlpenpals.com">
+									<img src="images/iggppc_pride-glados-xs.jpg" alt="geek girl pen pals club" class="wide">
+								</a>
+							</div>
+							<div class="padding">
 						   		<a href="#"><i class="fa fa-facebook-square blue big"></i></a>
 								<a href="#"><i class="fa fa-twitter-square blue big"></i></a>
 								<a href="#"><i class="fa fa-google-plus-square red big"></i></a>
 								<a href="#"><i class="fa fa-pinterest red big"></i></a>
 							</div> <!--fermeture padding-->
+							<div class="padding">
+								<a href="images/iggppc_manifesto.jpg"><img src="images/iggppc_manifesto.jpg" class="wide"></a>
+							</div>
 						</div> <!--fermeture padding-->
 					</aside>
 				</div> <!--fermeture 2 col-->
-			<div class="col-md-12">
-		    	<footer class="clearfix twelve">© 2014 - Tous droits réservés</footer>
-		    </div> <!--fermeture 12 col-->
-		    </div> <!--fermeture container-->
-    </div> <!--fermeture row-->
+			</div> <!--fermeture row2-->
+			<div class="row">
+		   		<footer class="clearfix twelve">© 2014 - Tous droits réservés</footer>
+		   	</div> <!--fermeture row-->
+		</div> <!--fermeture row1-->
+	</div> <!--fermeture container-->
 </body>
 </html>

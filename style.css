@@ -40,7 +40,6 @@ h1 {
 	margin-bottom: 50px;
 }
 h2{
-	padding-left: 5px;
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #30162B ;
 }
@@ -54,7 +53,8 @@ h3{
 p{
 	font-family: 'Habibi', serif;
 	text-align: left;
-	font-size: 14px;}
+	font-size: 14px;
+}
 a{
 	color: #30162B;
 	text-decoration: none;
@@ -93,13 +93,23 @@ nav ul a{
 .bold{
 	font-weight: 700;
 }
+.border-bt{
+	border-bottom: 3px;
+	border-color: #BCCF9F;
+}
 .cover {
 	line-height: 100px;
 	text-align: center;
 	background-size: cover;
 }
+.half-wide{
+	width: 50%;
+}
 .padding{
 	padding-top: 20px
+}
+.padding-sm{
+	padding-top: 5px
 }
 .standard {
 	font-size: 14px;
@@ -117,9 +127,12 @@ nav ul a{
 .underline:hover{
 	text-decoration: underline;
 }
-.cover:hover{
+.cover:hover, a img:hover{
 	opacity: 0.6;
 }
+
+
+/*---------Pseudo-éléments-----------------------*/
 
 /*-------------------Id-----------------------------*/
 

@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Mon blog</title>
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
@@ -17,48 +18,101 @@
 	<![endif]-->
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-	<div class="wrapper">
-		<header>
-			<a href="index.html"><h1>Mon Blog</h1></a>
-			<nav>
-				<ul>
-					<li class="bold">Blog</li>
-					<li><a href="#" class="bold underline">Fiction</a></li>
-					<li><a href="#" class="bold underline">Activité pro</a></li>
-					<li><a href="#" class="bold underline">A propos</a></li>
-					<li><a href="#" class="bold underline"><i class="fa fa-envelope-o"></i></a></li>
-				</ul>
-			</nav>
-		</header>
-	</div>
-	<section>
-		<article class="left">
-			<h2>
-				Dernier article
-			</h2>
-		</article>
-	</section>
-	<aside>
-			<h3>Newsletter</h3>
-	        <form action="index.html" method="post" class="subscribe-form">
-      			<input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus>
-      			<div>
-      				<button type="submit" class="subscribe-submit">S'inscrire</button>
-      			</div>
-    		</form>
-    		<div class="padding">
-    			<h3>Où me trouver</h3>
-    			<div>
-    				<a href="http://www.ljsf.fr" class="underline twelve">Les J3ux sont faits</a>
-    			</div>
-    			<div class="padding">
-		    		<a href="#"><i class="fa fa-facebook-square blue big"></i></a>
-					<a href="#"><i class="fa fa-twitter-square blue big"></i></a>
-					<a href="#"><i class="fa fa-google-plus-square red big"></i></a>
-					<a href="#"><i class="fa fa-pinterest red big"></i></a>
+<body>	
+	<div class="container bg-white">
+		<div class="row"> <!--row1-->
+			<header>
+				<div class="row">
+					<h1>Mon Blog</h1>
 				</div>
-			</div>
-	    </aside>
-	    <footer></footer>
+				<div class="row"><!--row1bis-->
+					<nav>
+						<ul class="list-inline">
+							<a href="blog.html" class="bold underline">Blog</a>
+							<a href="#" class="bold underline">Fiction</a>
+							<a href="#" class="bold underline">Activité pro</a>
+							<a href="#" class="bold underline">A propos</a>
+							<a href="#" class="bold underline"><i class="fa fa-envelope-o"></i></a>
+						</ul>
+					</nav>
+				</div> <!--fermeturerow1bis-->
+			</header>
+			<div class="row"><!--row2-->
+				<div class="col-md-10">
+					<section>
+						<div class="row"> <!--row3-->
+							<div class="col-md-12">
+								<article>
+									<h2>
+										Dernier article
+									</h2>
+									<p class="text-justify">Isdem diebus Apollinaris Domitiani gener, paulo ante agens palatii Caesaris curam, ad Mesopotamiam missus a socero per militares numeros immodice scrutabatur, an quaedam altiora meditantis iam Galli secreta susceperint scripta, qui conpertis Antiochiae gestis per minorem Armeniam lapsus Constantinopolim petit exindeque per protectores retractus artissime tenebatur.</p>
+								</article>
+							</div>
+							<div class="col-md-12">
+								<article>
+									<h2>
+										Pénultième article
+									</h2>
+									<p class="text-justify">Dein Syria per speciosam interpatet diffusa planitiem. hanc nobilitat Antiochia, mundo cognita civitas, cui non certaverit alia advecticiis ita adfluere copiis et internis, et Laodicia et Apamia itidemque Seleucia iam inde a primis auspiciis florentissimae.</p>
+								</article>
+							</div>
+							<div class="col-md-12">
+								<article>
+									<h2>
+										Antépénultième article
+									</h2>
+									<p class="text-justify">Huic Arabia est conserta, ex alio latere Nabataeis contigua; opima varietate conmerciorum castrisque oppleta validis et castellis, quae ad repellendos gentium vicinarum excursus sollicitudo pervigil veterum per oportunos saltus erexit et cautos. haec quoque civitates habet inter oppida quaedam ingentes Bostram et Gerasam atque Philadelphiam murorum firmitate cautissimas. hanc provinciae inposito nomine rectoreque adtributo obtemperare legibus nostris Traianus conpulit imperator incolarum tumore saepe contunso cum glorioso marte Mediam urgeret et Parthos.</p>
+								</article>
+							</div>
+						</div><!--fermeture row3-->
+					</section>
+				</div><!--fermeture 10 col-->
+				<div class="col-md-2">
+					<aside>
+						<h3>Newsletter</h3>
+						<div class="border-bt">
+					        <form action="index.html" method="post" class="subscribe-form">
+					  			<input type="email" name="email" class="subscribe-input wide" placeholder="Email address" autofocus>
+				    			<div>
+					      			<button type="submit" class="subscribe-submit">S'inscrire</button>
+					      		</div>
+				  	 		</form>
+				  	 	</div>
+				   		<div class="padding" class="border-bt">
+				    		<h3>Où me trouver</h3>
+				    		<div>
+				   				<a href="http://www.ljsf.fr">
+									<img src="images/ljsf_logo.png" alt="les j3ux sont faits" class="half-wide">
+								</a>
+							</div class="padding-sm">
+							<div>
+				    			<a href="http://www.ljsf.fr" class="standard">
+									Les J3ux sont faits
+								</a>				   			
+							</div>
+							<div class="padding">
+								<a href="http://www.geekgirlpenpals.com">
+									<img src="images/iggppc_pride-glados-xs.jpg" alt="geek girl pen pals club" class="wide">
+								</a>
+							</div>
+							<div class="padding">
+						   		<a href="#"><i class="fa fa-facebook-square blue big"></i></a>
+								<a href="#"><i class="fa fa-twitter-square blue big"></i></a>
+								<a href="#"><i class="fa fa-google-plus-square red big"></i></a>
+								<a href="#"><i class="fa fa-pinterest red big"></i></a>
+							</div> <!--fermeture padding-->
+							<div class="padding">
+								<a href="images/iggppc_manifesto.jpg"><img src="images/iggppc_manifesto.jpg" class="wide"></a>
+							</div>
+						</div> <!--fermeture padding-->
+					</aside>
+				</div> <!--fermeture 2 col-->
+			</div><!--fermeture row2-->
+			<div class="row">
+		   		<footer class="clearfix twelve">© 2014 - Tous droits réservés</footer>
+		    </div> <!--fermeture row-->
+		</div> <!--fermeture row1-->
+    </div> <!--container-->
 </body>
+</html>
