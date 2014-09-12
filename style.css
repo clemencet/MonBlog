@@ -39,6 +39,7 @@ h1 {
 	text-align: center;
 	font-size: 36px;
 	margin-bottom: 50px;
+	margin-top: 50px;
 }
 h2{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -87,7 +88,9 @@ nav ul a{
 }
 
 
-
+.absolu{
+	position: absolute;
+}
 .big{
 	font-size: 25px;
 }
@@ -107,6 +110,15 @@ nav ul a{
 .half-wide{
 	width: 50%;
 }
+.img-big{
+	height: 300px;
+}
+.img-margin{
+	margin: 20px 0px;
+}
+.left{
+	float: left;
+}
 .navbar-default{
 	border-top: 1px solid #BCCF9F;
 	border-bottom: 1px solid #BCCF9F;	
@@ -122,6 +134,15 @@ nav ul a{
 .padding-sm{
 	padding-top: 5px
 }
+.margin-sr{
+	margin-right: 5px;
+}
+.relatif{
+	position: relative;
+}
+.small{
+	height: 100px;
+}
 .standard {
 	font-size: 14px;
 	font-family: "Habibi"
@@ -131,11 +152,6 @@ nav ul a{
 }
 .wide{
 	width: 95%;
-}
-
-.navbar-nav > li {
-    float: none;
-    display: inline;
 }
 
 /*-------------------Pseudo-classes-------------------------*/
@@ -152,6 +168,11 @@ a:hover{
 }
 
 /*---------Pseudo-éléments-----------------------*/
+
+.alinea::before{
+	margin-left: 2em;
+	content: "";
+}
 
 /*-------------------Id-----------------------------*/
 
