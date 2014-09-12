@@ -25,18 +25,29 @@
 				<div class="row">
 					<h1>Mon Blog</h1>
 				</div>
-				<div class="row"><!--row1bis-->
-					<nav>
-						<ul class="list-inline">
-							<a href="blog.html" class="bold underline">Blog</a>
-							<a href="#" class="bold underline">Fiction</a>
-							<a href="#" class="bold underline">Activité pro</a>
-							<a href="#" class="bold underline">A propos</a>
-							<a href="#" class="bold underline"><i class="fa fa-envelope-o"></i></a>
-						</ul>
-					</nav>
-				</div> <!--fermeturerow1bis-->
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="container-fluid">
+						<div class="navbar-header">
+					    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					    		<span class="sr-only">Toggle navigation</span>
+					        	<span class="icon-bar"></span>
+					       		<span class="icon-bar"></span>
+					        	<span class="icon-bar"></span>
+					    	</button>
+					    </div><!--fermture navbar-header-->
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						    <ul class="nav navbar-nav">
+							    <a href="blog.html" class="bold underline">Blog</a>
+								<a href="#" class="bold underline">Fiction</a>
+								<a href="#" class="bold underline">Activité pro</a>
+								<a href="#" class="bold underline">A propos</a>
+								<a href="#" class="bold underline"><i class="fa fa-envelope-o"></i></a>
+						    </ul>
+						</div> <!--fermeture navbar collapse-->
+					</div><!-- fermeture container-fluid -->
+				</nav>
 			</header>
+		</div> <!--fermeturerow1-->
 			<div class="row"> <!--Row2-->
 				<div class="col-md-10">
 					<section>
@@ -47,7 +58,7 @@
 										<h2 id="turquoise" class="cover">Blog</h2>
 									</a>
 									<p class="text-justify">Isdem diebus Apollinaris Domitiani gener, paulo ante agens palatii Caesaris curam, ad Mesopotamiam missus a socero per militares numeros immodice scrutabatur, an quaedam altiora meditantis iam Galli secreta susceperint scripta, qui conpertis Antiochiae gestis per minorem Armeniam lapsus Constantinopolim petit exindeque per protectores retractus artissime tenebatur.</p>
-									<a href="#" class="padding standard">Lire la suite</a>
+									<a href="blog-article.html" class="padding standard">Lire la suite</a>
 								</article>
 							</div>
 							<div class="col-md-6">
@@ -83,7 +94,7 @@
 				<div class="col-md-2">
 					<aside>
 						<h3>Newsletter</h3>
-						<div class="border-bt">
+						<div>
 					        <form action="index.html" method="post" class="subscribe-form">
 					  			<input type="email" name="email" class="subscribe-input wide" placeholder="Email address" autofocus>
 				    			<div>
@@ -91,7 +102,7 @@
 					      		</div>
 				  	 		</form>
 				  	 	</div>
-				   		<div class="padding" class="border-bt">
+				   		<div class="padding">
 				    		<h3>Où me trouver</h3>
 				    		<div>
 				   				<a href="http://www.ljsf.fr">
@@ -126,5 +137,7 @@
 		   	</div> <!--fermeture row-->
 		</div> <!--fermeture row1-->
 	</div> <!--fermeture container-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>

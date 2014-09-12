@@ -8,7 +8,7 @@ nav{
 	text-align: center;
 	border-top: 1px solid #BCCF9F;
 	border-bottom: 1px solid #BCCF9F;	
-	line-height: 30px;
+	line-height: 45px;
 	margin-bottom: 15px;
 }
 section{
@@ -26,8 +26,9 @@ aside{
 	background-color: white;
 }
 footer{
-	border-top: 3px;
-	border-color:  #BCCF9F;
+	border: 1px;
+	border-color: #BCCF9F;
+	border-style: solid;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	text-align: center;
@@ -94,8 +95,9 @@ nav ul a{
 	font-weight: 700;
 }
 .border-bt{
-	border-bottom: 3px;
+	border-bottom: 1px;
 	border-color: #BCCF9F;
+	border-style: solid;
 }
 .cover {
 	line-height: 100px;
@@ -104,6 +106,15 @@ nav ul a{
 }
 .half-wide{
 	width: 50%;
+}
+.navbar-default{
+	border-top: 1px solid #BCCF9F;
+	border-bottom: 1px solid #BCCF9F;	
+	background-color: white;
+	border-radius: 0%;
+}
+.navbar-nav{
+	float: none;
 }
 .padding{
 	padding-top: 20px
@@ -122,6 +133,11 @@ nav ul a{
 	width: 95%;
 }
 
+.navbar-nav > li {
+    float: none;
+    display: inline;
+}
+
 /*-------------------Pseudo-classes-------------------------*/
 
 .underline:hover{
@@ -130,7 +146,10 @@ nav ul a{
 .cover:hover, a img:hover{
 	opacity: 0.6;
 }
-
+a:hover{
+	text-decoration:none;
+	opacity: 0.8;
+}
 
 /*---------Pseudo-éléments-----------------------*/
 
