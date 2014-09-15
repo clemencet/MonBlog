@@ -71,14 +71,23 @@ nav ul a{
 
 /*----------------Classes------------------------------*/
 
+.bcanard{
+	color: #3FB094;
+}
 .blue{
 	color: blue ;
 }
-.red{
-	color: red ;
+.dpurple{
+	color: #30162B;
+}
+.lightgreen{
+	color: #3FB094;
 }
 .mauve{
 	color: #87244C;
+}
+.red{
+	color: red ;
 }
 .white{
 	color: white;
@@ -101,6 +110,12 @@ nav ul a{
 	border-bottom: 1px;
 	border-color: #BCCF9F;
 	border-style: solid;
+}
+.btn2{
+	border:none;
+	border-radius: 0%;
+	padding: 0px 0px;
+	background-color: white;
 }
 .cover {
 	line-height: 100px;
@@ -131,11 +146,17 @@ nav ul a{
 .padding{
 	padding-top: 20px
 }
+.padding-bot{
+	padding-bottom: 20px;
+}
 .padding-sm{
 	padding-top: 5px
 }
 .margin-sr{
 	margin-right: 5px;
+}
+.margin-sl{
+	margin-left: 5px;
 }
 .relatif{
 	position: relative;
